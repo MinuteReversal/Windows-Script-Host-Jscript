@@ -1,6 +1,6 @@
 # Windows Script Host
 
-```typescript
+```ts
 WScript.Echo("Hello World!");
 ```
 
