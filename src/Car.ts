@@ -1,21 +1,19 @@
 namespace DemoCar {
-    class Car {
-        color: string = "red";
-        constructor() {
-
-        }
-        drive() {
-            WScript.Echo(`${this.color} car are go.`);
-        }
+  class Car {
+    color: string = "red";
+    constructor() {}
+    drive() {
+      WScript.Echo(`${this.color} car are go.`);
     }
+  }
 
-    new Car().drive();
+  new Car().drive();
 
-    class FlyCar extends Car {
-        fly() {
-            WScript.Echo(`${this.color} car can fly.`);
-        }
+  class FlyCar extends Car {
+    fly() {
+      WScript.Echo(`${this.color} car can fly.`);
     }
+  }
 
-    new FlyCar().fly();
+  new FlyCar().fly();
 }
